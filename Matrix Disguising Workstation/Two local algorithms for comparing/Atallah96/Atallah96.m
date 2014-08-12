@@ -4,7 +4,7 @@ function [ res,n,D ] = Atallah96( A )
 % 'Atallah96' is in the paper:
 
 % "Atallah, M. J.; Pantazopoulos, K. N. & Spafford, E. H. Secure
-% outsourcing of some computations£¬ Computer Science Technical Reports, 1996 "
+% outsourcing of some computations, Computer Science Technical Reports, 1996 "
 
 % 'A' is the matrix to be disguised, 'res' is the result of the disguising, and
 % matrix 'D' is the key and it is reversible.

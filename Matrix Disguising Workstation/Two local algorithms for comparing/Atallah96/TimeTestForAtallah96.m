@@ -5,7 +5,7 @@ function time = TimeTestForAtallah96( narr, reptime )
 % The detailed infomation is in the paper:
 
 % "Atallah, M. J.; Pantazopoulos, K. N. & Spafford, E. H. Secure
-% outsourcing of some computations£¬ Computer Science Technical Reports, 1996 "
+% outsourcing of some computations, Computer Science Technical Reports, 1996 "
 
 % 'narr' is a vector of the size of disguised matrix ,'reptime' is the repeat time for the time test.
 % 'time' is a vector of the test time which is corresponded to 'narr'
