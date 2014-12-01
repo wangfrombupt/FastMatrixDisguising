@@ -33,13 +33,13 @@ function  t  = TimeTestForBenjamin08Client( narr,reptime )
             clear R1;clear R2;clear B;
         t(1,j) = t(1,j) + toc;
 
-        C = rand(n,n);   
-       
-        tic
-            res = zeros(n,n);
-            C = C - R;
-            res = C + A1 * B1 + A2 * B2; 
-        t(1,j) = t(1,j) + toc;
+  %      C = rand(n,n);   
+  %     
+  %      tic
+  %          res = zeros(n,n);
+  %          C = C - R;
+  %          res = C + A1 * B1 + A2 * B2; 
+  %      t(1,j) = t(1,j) + toc;
         
         end
     end
