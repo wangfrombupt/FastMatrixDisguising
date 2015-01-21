@@ -27,7 +27,7 @@ function [res,H,n,beta] = FastMatrixDisguising( A, coff )
         vec = 1:beta:(block-1)*beta+1;
         H = rand(block,n);
         H(:,vec) = orth(rand(block,block));
-
+ 
         res = zeros(n,block);
         B = ones(beta,1);
         if beta * block > n
